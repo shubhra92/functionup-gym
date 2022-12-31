@@ -1,0 +1,23 @@
+.main {
+    border: 2px solid red;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+.main > .logo {
+    height: inherit;
+}
+.pages {
+    border: 2px solid blueviolet;
+    display: flex;
+    gap: 10px;
+}
+.pages > h4 {
+    margin: 0;
+}
+/* button {
+    height: 40px;
+
+} */
